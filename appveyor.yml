@@ -1,0 +1,11 @@
+environment:
+  matrix:
+    - node_version: "stable"
+branches:
+  only:
+    - main
+install:
+  - ps: Install-Product node $env:node_version
+test_script:
+  - npm run setup
+build: off
