@@ -1,0 +1,7 @@
+{
+  "name": "npx-problem",
+  "version": "1.0.0",
+  "scripts": {
+    "setup": "npx https://gist.github.com/merodiro/a20a979f1a76dcc7aafd8b6e8cb127ae"
+  }
+}
